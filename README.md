@@ -32,27 +32,6 @@ This script automatically checks today’s date, finds whose birthday it is in t
 
 --- 
 
-## 📦 Project Structure
-```bash
-auto-birthday-wisher/
-├─ .venv/
-├─ assets/
-│  └─ images/
-│     └─ received_email.jpg
-├─ config/
-│  ├─ .env              # REAL secrets (gitignored)
-│  └─ .env.example      # fake template 
-├─ data/
-│  ├─ birthdays.csv     # recipients (name, email, year, month, day)
-│  └─ letter_1.txt      # birthday letter template
-├─ src/
-│  └─ main.py           # main script (entry point)
-├─ .gitignore
-├─ LICENSE              # MIT license
-├─ README.md
-└─ requirements.txt
-
---- 
 
 ## 🔐 Environment Setup
 
@@ -76,6 +55,28 @@ Khaled |khaled@gmail.com  |2003  |  4       |  23
 	
 Sara   |sara@hotmail.com  |1999  |  8       |  10
 	
+--- 
+
+## 📦 Project Structure
+```bash
+auto-birthday-wisher/
+├─ .venv/
+├─ assets/
+│  └─ images/
+│     └─ received_email.jpg
+├─ config/
+│  ├─ .env              # REAL secrets (gitignored)
+│  └─ .env.example      # fake template 
+├─ data/
+│  ├─ birthdays.csv     # recipients (name, email, year, month, day)
+│  └─ letter_1.txt      # birthday letter template
+├─ src/
+│  └─ main.py           # main script (entry point)
+├─ .gitignore
+├─ LICENSE              # MIT license
+├─ README.md
+└─ requirements.txt
+
 --- 
 
 ## 👨‍💻 Author
