@@ -35,25 +35,25 @@ This script automatically checks today’s date, finds whose birthday it is in t
 
 ## 🔐 Environment Setup
 
-- create and edit the .env file inside config:
+### create and edit the .env file inside config:
 
-SMTP_HOST=smtp.gmail.com
-SMTP_PORT=587
-SENDER_EMAIL=your_email@gmail.com
-SENDER_PASSWORD=your_app_password
+- SMTP_HOST=smtp.gmail.com
+- SMTP_PORT=587
+- SENDER_EMAIL=your_email@gmail.com
+- SENDER_PASSWORD=your_app_password
 
-- use the .env.example as a template.
+### use the .env.example as a template.
 
 --- 
 
 ## 📝 CSV Example
 
-data/birthdays.csv
+### data/birthdays.csv
 
-name   | email	          | year | month	| day
-Khaled |khaled@gmail.com  |2003  |  4       |  23
+- name   | email	          | year | month	| day
+- Khaled |khaled@gmail.com  |2003  |  4       |  23
 	
-Sara   |sara@hotmail.com  |1999  |  8       |  10
+- Sara   |sara@hotmail.com  |1999  |  8       |  10
 	
 --- 
 
@@ -78,7 +78,6 @@ auto-birthday-wisher/
 └─ requirements.txt
 
 --- 
-
 ## 👨‍💻 Author
 
 Khaled Elsayed
